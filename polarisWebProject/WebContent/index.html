@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>청춘트레인</title>
+
+<meta name = "keywords" content = "SMINT jQuery Plugin, SMINT, jQuery Plugin, One Page Website, Sticky Navigation" />
+<meta name = "description" content = "SMINT is a simple plugin for lovers of one page websites, which helps with sticky menus and page scrolling." />
+<meta name="viewport" content="width=device-width">
+
+<link href="css/demo.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="js/jquery.min.js"></script>
+
+<script	src="js/jquery.smint.js" type="text/javascript" ></script>
+
+<script type="text/javascript">
+	
+$(document).ready( function() {
+    $('.subMenu').smint({
+    	'scrollSpeed' : 1000
+    });
+});
+
+</script>
+</head>
+
+<body>
+<div class="wrap ">
+<div class = "section sTop" style="
+background-image: url(main.jpg); background-repeat: no-repeat; background-position:50% 30%;
+background-size : 100%; background-top: 0px; padding-bottom:200px;">
+   
+        <div class = "log">
+        <div class="inner">
+        <a href="logIn" class="logInfo" style=" padding-top: 1%; padding-right: 1%;">로그인</a>
+        <a href="memberShip" class="logInfo" style=" padding-top: 1%; padding-right: 1%;">회원가입</a>
+        </div>
+       </div>
+      
+      <div class="inner" >
+       	<br>
+      	<br>
+		<h1 class="title" style="padding-top: 130px;">당신이 꿈꾸는 여행은 무엇인가요?</h1>
+		<h2 class="subtitle">저희가 그 꿈과 함께 가겠습니다.</h2>
+		</div>
+	</div>
+       
+	<div class="subMenu" >
+	 	<div class="inner">
+	 		<SPAN STYLE="font-weight:bold"><a href="#s1" class="subNavBtn">이런 곳은 어떠세요?</a></SPAN>
+	 		<SPAN STYLE="font-weight:bold"><a href="#s2" class="subNavBtn">여기 다녀왔어요</a></SPAN>
+			<SPAN STYLE="font-weight:bold"><a href="#s3" class="subNavBtn">지금 어디세요?</a></SPAN>
+			<SPAN STYLE="font-weight:bold"><a href="#s4" class="subNavBtn">가고싶은곳이 있나요?</a></SPAN>
+			
+			<!--<a href="https://twitter.com/rabmyself" class="subNavBtn extLink end">External Link</a> //버튼 링크 걸때-->
+		</div>
+	</div>
+
+	<div class="section s1">
+		<div class="inner ">
+			<h3 style="padding-top:2%">이런 곳은 어떠세요?</h3>
+			<h4 style="margin-bottom: 2%;">일주일 동안 가장 많이 태그 된 가고 싶은 곳</h4>
+			<table cellspacing=10 style="padding-left : 25%;">
+			<tr>
+			<td style="background-image: url(busan.PNG); background-repeat: no-repeat;" 
+			width = "150px" height = "150px"><ins>#부산<br>#해운대</ins></td>
+            <td style="background-image: url(ulsan.PNG); background-repeat: no-repeat;" 
+			width = "150px" height = "150px"><ins>#울산<br>#롯백</ins></td>
+			<td style="background-image: url(daegu.PNG); background-repeat: no-repeat;" 
+			width = "150px" height = "150px"><ins>#대구<br>#83타워</ins></td>
+			<td style="background-image: url(gj.PNG); background-repeat: no-repeat;" 
+			width = "150px" height = "150px"><ins>#경주<br>#보문단지</ins></td>
+			</tr>
+
+			<tr>
+			<td style="background-image: url(rf.PNG); background-repeat: no-repeat;" 
+			width = "150px" height = "150px"><ins>#강릉<br>#강문해변</ins></td>
+			<td style="background-image: url(ssd.PNG); background-repeat: no-repeat;" 
+			width = "150px" height = "150px"><ins>#대전<br>#성심당</ins></td>
+			<td style="background-image: url(qkfka.PNG); background-repeat: no-repeat;" 
+			width = "150px" height = "150px"><ins>#거제도<br>#바람의언덕</ins></td>
+			<td style="background-image: url(jdj.PNG); background-repeat: no-repeat;" 
+			width = "150px" height = "150px"><ins>#정동진<br>#일출</ins></td>
+			</tr>
+			</table>
+	
+	</div>
+	</div>
+
+	<div class="section s2">
+		<div class="inner">
+			<h3>여기 다녀왔어요</h3>
+		</div>
+	</div>
+
+	<div class="section s3">
+		<div class="inner">
+			<h3>지금 어디 계세요?</h3>
+		</div>
+	</div>
+
+	<div class="section s4">
+		<div class="inner">
+			<h3>가고 싶은 곳이 있나요?</h3>
+		</div>
+	</div>
+</div>
+
+<p><a href="#sTop" class="intLink">
+<img src="top.jpg" name="top" id="top" onMouseOver="MM_swapImage('top','','images/top_over.png',1)" 
+onMouseOut="MM_swapImgRestore()"></a></p>
+
+</body>
+</html>
